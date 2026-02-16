@@ -10,15 +10,9 @@ class KapitalAuth
                 'balance' => 450.0
             ],
 
-        '0000' =>
-            [
-                'name' => 'Birbank Mastercard',
-                'balance' => 1200.0
-            ],
-
         '7777' =>
             [
-                'name' => 'Birbank Pensiya',
+                'name' => 'Birbank Mastercard',
                 'balance' => 55.5
             ]
 
@@ -31,4 +25,5 @@ class KapitalAuth
         }
         return null;
     }
+
 }
